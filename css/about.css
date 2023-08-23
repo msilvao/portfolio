@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.avatar {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.content h1 {
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    margin-top: 2.5rem;
+}
+
+.content p {
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    margin-top: 1.5rem;
+}
+
+.content button {
+    margin-top: 1.5rem;
+    background: #5E5DF0;
+    border-radius: 999px;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: fit-content;
+    word-break: break-word;
+    border: 0;  
+}

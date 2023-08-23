@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* CSS RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+/* BODY INICIATION */
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+}
+
+/* SIDEBAR STYLE */
+
+.sidebar {
+    height: 100%;
+    width: 12.5rem;
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .sidebar li {
+    padding: 0.95rem;
+  }
+  
+  .sidebar li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    display: block;
+  }
+  
+  .sidebar li a:hover {
+    background-color: #555;
+  }
+
+  .content {
+    margin-left: 10rem;
+    padding: 1rem;
+  }
+
+  .introduction {
+    margin-top: 5rem;
+    margin-left: 7rem;
+    font-size: 5rem;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    margin-top: 2.5rem;
+  }
+
+  .introduction-p {
+    margin-left: 7.5rem;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    margin-top: 1.5rem;
+  }
